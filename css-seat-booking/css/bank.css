@@ -1,0 +1,129 @@
+
+
+ 
+
+
+body { margin:0px; padding:0px; }
+
+
+#mainContainer { margin-top:50px; border-radius:2px; border:1px solid #ddd; background-color:#fff; padding:15px 15px 0px ; position:relative; overflow:hidden; max-width:474px; }
+p { font-size:14px; }
+.small  { font-size:75%; color:#686a6a; }
+abbr 	{ border-bottom:0px; text-decoration:none; color:#2199e8; }
+
+
+.page1 { display:none; }
+.request-link, .request-link:hover, .request-link:focus, .tryAgain, .tryAgain:hover, .tryAgain:focus { text-decoration:underline; color:#000;  }
+.request-link:hover, .tryAgain:hover { text-decoration:none;  }
+
+.topBrd { background: #1c8af1 none repeat scroll 0 0; border-left: 125px solid #f7751e; height: 3px; left: 0; position: absolute; right: 0; top: 0; }
+
+.form-control::-moz-placeholder 			{ color:#999; opacity:1; font-size:12px; letter-spacing:0.1em; }
+.form-control:-ms-input-placeholder 		{ color:#555; opacity:1; font-size:12px; letter-spacing:0.1em; }
+.form-control::-webkit-input-placeholder 	{ color:#555; opacity:1; font-size:12px; letter-spacing:0.1em; }
+
+
+dl.mercDetails 			{ display:table; padding:7px 10px 10px 25px; border-top:1px solid #ddd; border-bottom:1px solid #ddd; margin:10px -15px; }
+dl.mercDetails dt , dl.mercDetails dd { float:left; width:45%; display: inline; margin: 0; font: 500 14px arial; padding:3px 0px; color:#333333; text-shadow:  0 0 0; }
+dl.mercDetails dd { width:50%; font-weight:500;  }
+dl.mercDetails dd:after, dl.mercDetails dd:before { clear:right; white-space: pre;  }
+dl.mercDetails dd:before { content: ': '; }
+
+hr.divider { margin:0px; display:none; }
+
+
+.details 				{ border-top:1px solid #ddd; border-bottom:1px dashed #ddd; padding:10px 5px; margin:15px 0px 0px; }
+.details div.columns 	{ padding-left:0.5375rem; padding-right:0.5375rem; }
+.details p, .details h5 { margin:0px; padding:0px;  }
+.details p  			{ color:#878989; line-height:18px; font-size:14px; text-transform:uppercase;}
+.details h5 			{ font-size:1.15rem; }
+.details h5 small  		{ color:#878989; }
+.details div.mercName h5 { font-size:1rem; }
+
+.crddetails 		{ margin:0 -15px 25px -15px; border-bottom:1px solid #ccc; }
+.crddetails label 	{ float:left; width:30%; padding:18px 16px; color:#a0a0a0; color:#878989; font-size:12px; text-transform:uppercase; }
+.crddetails .maskNumber 		{ float:left; width:70%; line-height:55px; padding-left:35px; letter-spacing:0.1em; color:#5f5f5f; }
+.crddetails small  	{ color:#878989; letter-spacing:0.05em; }
+
+
+form div.page-heading	{ border-bottom:0px solid #e5e5e5;  margin-bottom:10px;		}
+form .form-heading 		{ color:#00518f; margin-bottom:5px; font-weight:700;  	}
+form .form-subheading 	{ line-height:18px; color:#333; font-size:14px;  }
+form > label 			{ margin-bottom:10px; color:#686a6a; }
+
+.form-control 			{ border:1px solid #b4b6b6; border-radius:2px; background-color:#fff; color:#3a3b3b; font-weight:700; height:2.755rem; margin-bottom:10px; }
+.optPass 				{ letter-spacing: 0.1em; }
+
+
+
+
+input.warning, select.warning  { 
+		border:1px solid #ff0000;
+		-webkit-box-shadow: 0 0 2px 1px rgba(255, 0, 0, 0.2);
+		-moz-box-shadow: 0 0 2px 1px rgba(255, 0, 0, 0.2);
+		box-shadow: 0 0 2px 1px rgba(255, 0, 0, 0.2);
+	}
+
+.btnSection 			{ background-color:#303131; margin-left:-15px !important; margin-right:-15px !important; margin-top:35px; color:#fff; }
+.btnSection div.columns { line-height:50px; }
+
+.btnSection div.btncol  { padding-right:0px !important; }
+.btnSection div.columns .button { margin-bottom:0px; padding:18px; /*background-color:#00518f;*/ }
+
+.cancelLink { font-size:12px; color:rgba(255,255,255,0.7); padding:10px }
+.cancelLink:hover, .cancelLink:active  { color:rgba(255,255,255,1);  border-bottom:0px; background-color:rgba(0,0,0,0.2);  }
+.cancelLink:focus { margin-top:1px; padding-top:11px;  }
+
+.page2 > div.columns { padding-left:0px; padding-right:0px; }
+
+#promo_wrapper{ position:relative; }
+#promo_link { color:#2392d0; font-size:13px; font-weight:700; cursor:pointer; }
+#promo_link > div.disablecode { display:none; color:#999999; }
+.promo_field { display:none; max-width:200px; background:transparent; }
+
+.button.next { padding:0.80em 1em; font-size:16px; border-radius:2px; background-color:#00c853;
+margin-bottom:0px; 
+background-image: -webkit-gradient(linear, left top, left bottom, from(#f7dfa5), to(#f0c14b)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(#f7dfa5, #f0c14b); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(#f7dfa5, #f0c14b); /* FF3.6 */
+	background-image:     -ms-linear-gradient(#f7dfa5, #f0c14b); /* IE10 */
+	background-image:      -o-linear-gradient(#f7dfa5, #f0c14b); /* Opera 11.10+ */
+	background-image:         linear-gradient(#f7dfa5, #f0c14b); color:#000 !important; 
+	border-color:#cba957 #bf942a #aa8326 !important; box-shadow:0 1px 0 rgba(255, 255, 255, 0.4) inset;
+
+}
+.button.next:hover { background-color:#01a143; }
+
+.ErrorContainer { margin: 150px auto 25px; width: 46.66666667%; position:relative;  }
+.content-container {
+		background:#fff;
+		margin:90px auto;
+		font: 13px/20px Arial, Tahoma, Verdana, sans-serif; font-weight:400;
+		color:#424e5a; padding:15px 15px 40px;  border-radius: 4px; text-align:left; border:1px solid #ccc; text-shadow: 0 0 0;
+}
+.content-container h1 { line-height: auto; font-size: 19px; font-weight: bold;  color: #414141; text-shadow: 0 1px white; margin:15px 0px 10px; padding-bottom:10px; }
+.ErrorContent { font-size:14px; color:#4a4a4a; line-height:1.8em; margin-bottom:10px; }
+.contentPad100 { padding-left:100px; } 
+.error { color:#CC0000; }
+
+#mainContainer.footer { background-color:transparent !important; font-size:12px; margin-top:0px !important; padding:10px 0px; border:0px; position:relative; text-align:right; }
+#mainContainer.footer img { margin-top:-5px; }
+
+.note { text-align:left; font-size:12px; margin:15px 0px; background-color:#fcf6f5; border:1px solid #f2dad8; padding:15px 15px 15px; }
+.note abbr { color:#000; }
+.note strong { color:#000; }
+.resendBtn { padding-right:30px; }
+
+
+@media screen and (max-width:40em) {
+	#mainContainer {margin-top:0px; }
+	.page2 div.large-5 label { display:none; }
+
+	dl.mercDetails dt , dl.mercDetails dd { font:14px arial;}	
+	.crddetails label  { width:40%; }
+	.crddetails .maskNumber { width:60%; padding-left:15px; }
+	.secureMess { padding-right:15px; text-align:center; }
+	.button.next { margin-bottom:10px; }
+	.resendBtn { padding-right:0px; }
+}
+.textRed { color:#CC0000 !important; }
